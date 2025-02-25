@@ -1,0 +1,25 @@
+[1]
+Conta
+ti@rpedro.com.br [999Xxxxx999%%]
+
+[2]
+Repository
+amigo-secreto
+https://github.com/roldao-pedro/amigo-secreto
+
+[3]
+git config --global user.name "roldao-pedro"
+git config --global user.email "ti@rpedro.com.br"
+git init
+git add .
+git commit -m "projeto amigo-secreto"
+git branch -M main
+git remote add origin git@github.com:roldao-pedro/amigo-secreto.git
+git push -u origin main
+
+git status
+
+[4]
+ssh-keygen -t ed25519 -C "ti@rpedro.com.br"
+	C:\Users\ti\.ssh\id_ed25519.pub
+	ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDgbvJHsydevd+QWnyg4XO13tU6nXPObv9ZNJ3OEpnfN ti@rpedro.com.br
